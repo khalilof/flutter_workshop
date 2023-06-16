@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_day1/views/styled_container.dart';
 import 'package:flutter_svg/svg.dart';
 
 class ImageHome extends StatelessWidget {
@@ -11,12 +10,12 @@ class ImageHome extends StatelessWidget {
       height: 200,
       width: 200,
       child: DecoratedBox(
-          decoration:
-              BoxDecoration(color: Colors.green, shape: BoxShape.circle),
-          child: SvgPicture.asset(
-            "assets/icons/ausy.svg",
-            colorFilter: const ColorFilter.mode(Colors.white, BlendMode.srcIn),
-          )),
+        decoration: BoxDecoration(color: Colors.green, shape: BoxShape.circle),
+        child: SvgPicture.asset(
+          "assets/icons/ausy.svg",
+          colorFilter: const ColorFilter.mode(Colors.white, BlendMode.srcIn),
+        ),
+      ),
     );
   }
 

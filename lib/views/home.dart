@@ -5,9 +5,15 @@ class Home extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Text.rich(TextSpan(text: "Welcome to ", children: <TextSpan>[
-      TextSpan(text: " Ausy ", style: TextStyle(backgroundColor: Colors.blue)),
-      TextSpan(text: " TEchnologies ")
-    ]));
+    return const Text.rich(
+      TextSpan(
+        text: "Welcome to ",
+        children: <TextSpan>[
+          TextSpan(
+              text: " Ausy ", style: TextStyle(backgroundColor: Colors.blue)),
+          TextSpan(text: " TEchnologies ")
+        ],
+      ),
+    );
   }
 }
